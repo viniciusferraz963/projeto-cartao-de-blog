@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+* {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 98vw;
+    height: 100vh;
+    background-color: var(--Yellow);
+}
+
+main {
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 15px 13px 1px black;
+    margin: auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 680px;
+}
+
+img {
+    border-radius: 20px;
+    width: 430px;
+    margin: 30px;
+    margin-left: 35px;
+}
+
+h3 {
+    background-color: var(--Yellow);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-right: 344px;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 25px;
+}
+
+h1 {
+    margin-left: 25px;
+    font-weight: 900;
+}
+
+.p {
+    color: var(--Grey);
+}
+
+.perfil {
+    width: 70px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+}
