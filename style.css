@@ -27,13 +27,13 @@ main {
     box-shadow: 15px 13px 1px black;
     margin: auto;
     margin-top: 200px;
-    width: 500px;
+    width: 400px;
     height: 680px;
 }
 
 img {
     border-radius: 20px;
-    width: 430px;
+    width: 330px;
     margin: 30px;
     margin-left: 35px;
 }
@@ -44,7 +44,7 @@ h3 {
     padding: 10px;
     margin: 5px;
     margin-left: 25px;
-    margin-right: 344px;
+    margin-right: 240px;
     font-weight: 800;
 }
 
